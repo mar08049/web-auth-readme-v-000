@@ -1280,3 +1280,62 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/" for ::1 at 2017-12-13 14:30:53 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 555ms (Views: 534.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-13 14:31:00 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JgbwLd5GfH4IOen8scHg0Q1DglIG7ZHVaOEMAKl8/2dlEvAW7Jr5F6KRZxlQzhnvvEY+jODzk2OLwXA7pgwgcg==", "zipcode"=>"78739", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 467ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-13 14:33:30 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-13 14:33:35 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q4jaBNy299kfZFssgG0nxZn0Uc2tLmUfRG/OV0YQKRQAnNo/7mpysLXM1clhYt77KPHtE0swZ6mnT7JsSWD2AQ==", "zipcode"=>"78739", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 272ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2017-12-13 14:36:17 -0600
+
+SyntaxError (/Users/cole/web-auth-readme-v-000/app/controllers/searches_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/searches_controller.rb:39: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.4ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (107.2ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered /Users/cole/.rvm/gems/ruby-2.3.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (240.7ms)
+
+
+Started GET "/search" for ::1 at 2017-12-13 14:37:25 -0600
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2017-12-13 14:37:31 -0600
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M1ING6V/KUKAN5e8foVKTN9JZAJwP9pOe150cWq3KABwRg0gl6OsKyqfGVmfirNybkzY3JYh2PiYfghKZcf3FQ==", "zipcode"=>"78739", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 273ms (Views: 25.0ms | ActiveRecord: 0.0ms)
